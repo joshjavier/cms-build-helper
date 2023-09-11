@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  font-family: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+body {
+  font-family: "Consolas", monospace;
+  background-color: #22223B;
+  color: #FFFFFF;
+}
+
+input {
+  color: #22223B;
+}

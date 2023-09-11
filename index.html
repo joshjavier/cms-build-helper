@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CMS Build Helper</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <header>
+    <h1>CMS Build Helper</h1>
+  </header>
+  <main>
+    <p>
+      <label for="ticket">Ticket name:</label>
+      <input type="text" id="ticket">
+    </p>
+
+    <section id="links" hidden>
+      <h2>Links</h2>
+      <ul>
+        <li>
+          <a id="carousel" href="#" target="_blank">Casino landing page</a>
+        </li>
+        <li>
+          <a id="smartlinks" href="#" target="_blank">SmartLinks</a>
+        </li>
+        <li>
+          <a id="restqa" href="#" target="_blank">Rest ID checker</a>
+        </li>
+        <li>
+          <a id="offers" href="#" target="_blank">Promo offers</a>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Direct Link Generator</h2>
+      <label for="directlink">URL or Rest ID:</label>
+      <input type="text" id="directlink" class="directlink">
+      <a href="#" target="_blank" class="directlink" hidden>Sitecore DL</a>
+      <p class="directlink"></p>
+    </section>
+  </main>
+</body>
+</html>
